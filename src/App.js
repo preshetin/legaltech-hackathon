@@ -1,26 +1,23 @@
 import React, { Component } from 'react';
+import 'bulma/css/bulma.css';
 import logo from './logo.svg';
 import './App.css';
+import Form from './Form';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+  <section class="section">
+    <div class="container is-fluid">
+      <h1 class="title">
+        Подготовьте претензию на пять минут 
+      </h1>
+      <p class="subtitle">
+        My first website with <strong>Bulma</strong>!
+      </p>
+      <Form />
+    </div>
+  </section>
     );
   }
 }
