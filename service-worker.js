@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/legaltech-hackathon/precache-manifest.f6f8979f69aa40a49367d8d528704763.js"
+  "/legaltech-hackathon/precache-manifest.5eead59249622f10eb95edb37c3b5bf3.js"
 );
 
 workbox.clientsClaim();
