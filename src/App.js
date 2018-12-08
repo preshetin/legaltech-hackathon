@@ -15,7 +15,19 @@ class App extends Component {
       <p class="subtitle">
         My first website with <strong>Bulma</strong>!
       </p>
-      <Form />
+      <div className="columns">
+        <div className="column">
+          <Form />
+          	
+        </div>
+        <div className="column">
+          <div style={{ backgroundColor: 'lightgray', padding: '15px' }}>
+            7,15 (семь) бел. рублей 15 копеек
+          </div>
+          <img src="https://www.dropbox.com/s/6334m3sijvj5upt/IMG_3103%202.JPG?dl=0&raw=1" />
+          image  	
+        </div>
+      </div>
     </div>
   </section>
     );
