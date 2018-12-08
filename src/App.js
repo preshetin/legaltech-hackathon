@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import 'bulma/css/bulma.css';
 import logo from './logo.svg';
+import CroppingImage from './CroppingImage';
 import './App.css';
 import Form from './Form';
 
@@ -24,8 +25,7 @@ class App extends Component {
           <div style={{ backgroundColor: 'lightgray', padding: '15px' }}>
             7,15 (семь) бел. рублей 15 копеек
           </div>
-          <img src="https://www.dropbox.com/s/6334m3sijvj5upt/IMG_3103%202.JPG?dl=0&raw=1" />
-          image  	
+          <CroppingImage />
         </div>
       </div>
     </div>

@@ -66,7 +66,7 @@ class Form extends React.Component {
           </div>	
           <div className="column">
             <div class="field">
-              <label class="label">Процент заявки</label>
+              <label class="label">Юрлицо контрагента</label>
               <div class="control">
                 <input class="input" type="text" placeholder="Text input" />
               </div>
